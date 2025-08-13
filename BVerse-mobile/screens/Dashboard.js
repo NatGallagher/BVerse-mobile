@@ -55,18 +55,7 @@ export default function Dashboard({ navigation }) {
             )}
           </ScrollView>
         </View>
-      </View>
-
-      {/* Bottom "links" from web version */}
-      <View style={styles.footer}>
-        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
-          <Text style={styles.link}>Home</Text>
-        </TouchableOpacity>
-        <Text style={styles.sep}> | </Text>
-        <TouchableOpacity onPress={() => {/* navigation.navigate('Search') if/when you add it */}}>
-          <Text style={styles.link}>Search</Text>
-        </TouchableOpacity>
-      </View>
+      </View>      
     </View>
   );
 }
